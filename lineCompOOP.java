@@ -6,7 +6,7 @@ public class lineCompOOP {
 
 	public static double line() {
 
-		System.out.println ("Enter the Values for line 1:=");
+		System.out.println ("Enter the Values for Line :=");
 		double x1 = sc.nextDouble ();
 		double x2 = sc.nextDouble ();
 		double y1 = sc.nextDouble ();
@@ -17,10 +17,19 @@ public class lineCompOOP {
 
 	}
 
+	public static void lineComparision () {
+
+		if (line() == line())
+			System.out.println ("Equal");
+		else
+			System.out.println ("Not Equal");
+
+	}
+
 	public static void main (String[] args) {
 
 		System.out.println ("Welcome to Line Comparision");
-		line ();
+		lineComparision ();
 
 	}
 
