@@ -19,10 +19,14 @@ public class lineCompOOP {
 
 	public static void lineComparision () {
 
-		if (line() == line())
-			System.out.println ("Equal");
-		else
-			System.out.println ("Not Equal");
+		double length1 = line();
+		double length2 = line();
+		if ( length1 == length2 )
+			System.out.println ("Both Line 1 and Line 2 are Equal");
+		else if ( length1 > length2 )
+			System.out.println ("Length of Line 1 is Greater than Line 2!");
+		else if ( length1 < length2 )
+			System.out.println ("Length of Line 1 is Smaller than Line 2!");
 
 	}
 
